@@ -18,8 +18,11 @@
 
 
 ## Screenshots
+New Game
+![Image of adduser](https://github.com/jervygu/JavaSparks-Exam-for-Jr.-Software-Engineer-role/blob/master/tictactoe%20screenshots/1.%20new%20game.JPG)
 
+Player X has won
+![Image of adduser](https://github.com/jervygu/JavaSparks-Exam-for-Jr.-Software-Engineer-role/blob/master/tictactoe%20screenshots/2.%20player%20X%20has%20won.JPG)
 
-
-
-
+game draw
+![Image of adduser](https://github.com/jervygu/JavaSparks-Exam-for-Jr.-Software-Engineer-role/blob/master/tictactoe%20screenshots/3.%20game%20draw.JPG)
