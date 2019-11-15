@@ -13,6 +13,7 @@
 5> Browse through downloads and select the Tictactoe_project folder
 
 6> After importing, open the project, go to /src/tictactoe/Main.java
+
 7> Right Click and run it As Java Application.
 
 
