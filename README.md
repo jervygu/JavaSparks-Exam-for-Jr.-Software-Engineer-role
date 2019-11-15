@@ -6,7 +6,7 @@
 
 2>Open Eclipse.
 
-3>Download the project from github(https://github.com/jervygu/JavaSparks-Exam-for-Jr.-Software-Engineer-role/tree/master/TicTacToe_project).
+3>Download the project from github(https://github.com/jervygu/JavaSparks-Exam-for-Jr.-Software-Engineer-role).
 
 4>Go to Eclipse and click Import existing projects.
 
