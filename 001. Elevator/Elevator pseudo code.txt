@@ -1,0 +1,65 @@
+String passengerDirection
+int floor
+int elevator
+int elevatorCurrentFloor
+int destinationFloor
+elevatorCurrentFloor()
+elevatorStatus()
+elevatorDirection()
+findNearest()
+loadState()
+
+
+void elevatorStatus(String elevatorState){
+	if(elevatorState == "idle")
+		return "idle"
+	else if(elevatorState == "moving up")
+		return "moving up"
+	else if(elevatorState == "moving down")
+		return "moving down"
+	else
+		return "loading unloading"
+}
+
+void elevatorDirection(String elevatorDirection){	
+	if(direction == "up")
+		return "up"
+	else
+		return "down"
+}
+
+void findNearest(int elevator){
+	elevator1 = elevator1_current_floor - button_pushed_floor
+	elevator2 = elevator2_current_floor - button_pushed_floor
+	elevator3 = elevator2_current_floor - button_pushed_floor
+
+	if(elevator1 < elevator2 && elevator1 < elevator3)
+		return elevator1
+	else if(elevator2 < elevator1 && elevator2 < elevator3)
+		return elevator2
+	else 
+		return elevator3
+}
+
+void loadState(String loadState){
+	if(elevatorLoad <= maxCapacity)
+		return "okay"
+	else
+		return "out of capacity"
+}
+void elevatorCurrentFloor(int elevatorCurrentFloor){
+	int[] building = new int[50]
+	for(i = 0; i <= building.length; i++){
+		elevatorCurrentFloor = building[i]
+	}
+	elevatorState = "loading unloading"
+	return elevatorCurrentFloor
+}
+
+void floorButtonPushed(int destinationFloor){
+	int[] building = new int[50]
+	for(i = 0; i <= building.length; i++){
+		if(destinationFloor == building[i])
+	}
+	return destinationFloor	
+}
